@@ -1,0 +1,46 @@
+body{
+  padding-top: 100px;
+  background: none;
+}
+
+ul.accordion{
+  padding: 0;
+  margin: 0;
+}
+
+ul.accordion li{
+  list-style-type: none;
+}
+
+ul.accordion li a{
+  display:block;
+  text-decoration: none;
+  text-align: center;
+  background: #aaa;
+  color: white;
+  font-family: Tahoma;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 6px 0;
+  margin: 2px 0;
+}
+
+ul.accordion li a:hover, ul.accordion li.active a{
+  background: #ccc;
+  color:#888;
+}
+
+
+/*Following is for higlighting Classes only*/
+ul.accordion li a {
+  position: relative;  
+}
+
+ul.accordion li a span{
+  text-transform: none;
+  color: blue;
+  font-family: "Courier New";
+  font-size: 12px;
+  position: absolute;
+  right: 0;  
+}
