@@ -62,23 +62,3 @@
 
 	};
 }(jQuery));
-
-
-
-$(function() {
-  $(".accordion").jqsimpleaccordion();
-  
-  /*Following is for higlighting Classes only*/
-  $(".accordion li a ").append("<span></span>");
-  classHiglighter();
-  $(".accordion li a").click(function() {
-    classHiglighter();
-  });
-  
-});
-
-function classHiglighter(){
-  $(".accordion li a span").text(function() {
-      return " [Classes: " + $(this).parent("a").parent("li").attr("class") + "] ";
-  });
-}
