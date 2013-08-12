@@ -12,8 +12,8 @@
 	$.fn.jqsimpleaccordion = function(options) {
 		var settings = $.extend({
 			"openingSpeed" : "fast",
-            "closingSpeed" : "fast",
-            "toggleFirst" : true
+            		"closingSpeed" : "fast",
+            		"toggleFirst" : true
 		}, options);
 
 			return this.each(function(index, value) {
@@ -42,7 +42,7 @@
 				        accordionContent.slideUp(settings.closingSpeed);
 
 				        allList.removeClass("active prev next disabled");
-                        thisParent.addClass("disabled");
+                       			thisParent.addClass("disabled");
 				    } else {
 				    	allDivs.slideUp(settings.closingSpeed);
 
@@ -55,9 +55,9 @@
 				        accordionContent.slideDown(settings.openingSpeed);
 				    }
 				});
-              if(settings.toggleFirst){
-				$(this).find("li:first-child a").trigger("click");
-              }
+              			if(settings.toggleFirst){
+					$(this).find("li:first-child a").trigger("click");
+              			}
 			});
 
 	};
