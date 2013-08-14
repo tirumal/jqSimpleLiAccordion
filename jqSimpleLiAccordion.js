@@ -5,6 +5,7 @@
 * Author: Tirumal
 * URL : http://code-tricks.com/jquery-simple-accordion-for-unordered-list/
 * License: MIT License
+* License URL: https://raw.github.com/tirumal/jqSimpleLiAccordion/master/LICENSE
 */
 
 ;(function($){
