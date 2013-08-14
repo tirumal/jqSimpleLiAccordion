@@ -3,7 +3,7 @@
 * Description: jQuery Simple Li Based Acccordion (jqSimpleLiAccordion)
 * Version: 1.0
 * Author: Tirumal
-* URL : www.code-tricks.com
+* URL : http://code-tricks.com/jquery-simple-accordion-for-unordered-list/
 * License: MIT License
 */
 
